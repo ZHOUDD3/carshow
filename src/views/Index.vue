@@ -13,7 +13,7 @@
 					<span class="tel">电话：11234568944</span>
 				</div>
 			</div>
-			<div class="box" @click="showDetail">
+			<div class="box new" @click="showDetail">
 				<div class="logo">
 					<img class="logo-img" src="../assets/image/奔驰.png">
 				</div>
@@ -97,7 +97,7 @@
 					<span class="tel">电话：11234568944</span>
 				</div>
 			</div>
-			<div class="box" @click="showDetail">
+			<div class="box new" @click="showDetail">
 				<div class="logo">
 					<img class="logo-img" src="../assets/image/奥迪.png">
 				</div>
@@ -187,6 +187,10 @@ export default {
 			margin-top: 44px;
 			padding: 30px 0;
 			cursor: pointer;
+		}
+		.new {
+			background: url('../assets/image/new.png');
+			background-size: cover;
 		}
 		.logo {
 			width: 170px;

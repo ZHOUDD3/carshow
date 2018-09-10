@@ -22,4 +22,8 @@ html, body {
   text-align: center;
   color: #2c3e50;
 }
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
 </style>
